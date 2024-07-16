@@ -1,0 +1,11 @@
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.5000:   3%|▎         | 3/100 [00:00<00:00, 206.20it/s]
