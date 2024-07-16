@@ -1,0 +1,13 @@
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   2%|▏         | 2/100 [00:00<00:00, 188.76it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)

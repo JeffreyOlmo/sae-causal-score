@@ -1,0 +1,274 @@
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   3%|▎         | 3/100 [00:00<00:00, 214.02it/s]
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   2%|▏         | 2/100 [00:00<00:00, 188.72it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   5%|▌         | 5/100 [00:00<00:00, 231.04it/s]
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   4%|▍         | 4/100 [00:00<00:00, 221.26it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+/tmp/ipykernel_12524/1343608316.py:222: UserWarning: The use of `x.T` on tensors of dimension other than 2 to reverse their shape is deprecated and it will throw an error in a future release. Consider `x.mT` to transpose batches of matrices or `x.permute(*torch.arange(x.ndim - 1, -1, -1))` to reverse the dimensions of a tensor. (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/native/TensorShape.cpp:3604.)
+  top_k_directions = sae.W_enc.T[top_k_indices].T
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.5000:   3%|▎         | 3/100 [00:00<00:00, 158.05it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+torch.Size([16, 768])
+torch.Size([768, 5, 16])
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.5000:   2%|▏         | 2/100 [00:00<00:00, 185.12it/s]
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.5000:   3%|▎         | 3/100 [00:00<00:00, 210.87it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+torch.Size([768, 5, 16])
+torch.Size([16, 768])
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.5000:   5%|▌         | 5/100 [00:00<00:00, 224.76it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+torch.Size([768, 5, 16])
+torch.Size([16, 1, 768])
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   2%|▏         | 2/100 [00:00<00:00, 190.07it/s]
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   4%|▍         | 4/100 [00:00<00:00, 221.56it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   2%|▏         | 2/100 [00:00<00:00, 188.82it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   3%|▎         | 3/100 [00:00<00:00, 210.20it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+tensor(86586.3281, device='cuda:0')
+SAE(
+  (activation_fn): ReLU()
+  (hook_sae_input): HookPoint()
+  (hook_sae_acts_pre): HookPoint()
+  (hook_sae_acts_post): HookPoint()
+  (hook_sae_output): HookPoint()
+  (hook_sae_recons): HookPoint()
+  (hook_sae_error): HookPoint()
+)
+1.5481296230573207
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   2%|▏         | 2/100 [00:00<00:00, 184.31it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   2%|▏         | 2/100 [00:00<00:00, 183.29it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+tensor(-239142.3750, device='cuda:0')
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.5000:   3%|▎         | 3/100 [00:00<00:00, 211.62it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+tensor(-241402.5469, device='cuda:0')
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   2%|▏         | 2/100 [00:00<00:00, 167.91it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+False
+tensor(-241375.7500, device='cuda:0')
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   4%|▍         | 4/100 [00:00<00:00, 222.29it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+True
+1.5452203177846968
+tensor(-231853.6875, device='cuda:0', grad_fn=<MulBackward0>)
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.5000:   2%|▏         | 2/100 [00:00<00:00, 174.44it/s]
+/usr/local/lib/python3.10/dist-packages/sae_lens/training/training_sae.py:455: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  out = torch.tensor(origin, dtype=self.dtype, device=self.device)
+True
+1.5464837099425495
+tensor(-238793.6562, device='cuda:0', grad_fn=<MulBackward0>)
+True
+1.5247294721193612
+tensor(-239322.5781, device='cuda:0', grad_fn=<MulBackward0>)
+Training interrupted. Saving checkpoint...
+Run name: 24576-L1-0.005-LR-1e-05-Tokens-1.000e+07
+n_tokens_per_buffer (millions): 0.16384
+Lower bound: n_contexts_per_buffer (millions): 0.00064
+Total training steps: 2441
+Total wandb updates: 244
+n_tokens_per_feature_sampling_window (millions): 2097.152
+n_tokens_per_dead_feature_window (millions): 1048.576
+We will reset the sparsity calculation 1 times.
+Number tokens in sparsity calculation window: 8.19e+06
+Loaded pretrained model gpt2-small into HookedTransformer
+Objective value: 7284788.0000:   2%|▏         | 2/100 [00:00<00:00, 186.65it/s]
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)

@@ -1,0 +1,1 @@
+{"mse_loss": 2972.52587890625, "l1_loss": 7.027162551879883, "ghost_grad_loss": 0.0, "auxiliary_reconstruction_loss": 0.0, "r_score": 0.38857153058052063, "total_loss": 0.6151529550552368, "tokens_processed": 258816, "_timestamp": 1721158231.6456003, "_runtime": 6998.845479249954, "_step": 1010}

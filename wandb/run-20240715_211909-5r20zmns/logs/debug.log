@@ -1,0 +1,65 @@
+2024-07-15 21:19:09,056 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Configure stats pid to 12524
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Loading settings from /mnt/pccfs2/backed_up/jeffolmo/sae_functional_significance/wandb/settings
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_init.py:_log_setup():521] Logging user logs to /mnt/pccfs2/backed_up/jeffolmo/sae_functional_significance/wandb/run-20240715_211909-5r20zmns/logs/debug.log
+2024-07-15 21:19:09,057 INFO    MainThread:12524 [wandb_init.py:_log_setup():522] Logging internal logs to /mnt/pccfs2/backed_up/jeffolmo/sae_functional_significance/wandb/run-20240715_211909-5r20zmns/logs/debug-internal.log
+2024-07-15 21:19:09,058 INFO    MainThread:12524 [wandb_init.py:init():561] calling init triggers
+2024-07-15 21:19:09,058 INFO    MainThread:12524 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'model_name': 'gpt2-small', 'model_class_name': 'HookedTransformer', 'hook_name': 'blocks.8.hook_resid_pre', 'hook_eval': 'NOT_IN_USE', 'hook_layer': 8, 'hook_head_index': None, 'dataset_path': 'apollo-research/Skylion007-openwebtext-tokenizer-gpt2', 'dataset_trust_remote_code': True, 'streaming': True, 'is_dataset_tokenized': True, 'context_size': 256, 'use_cached_activations': False, 'cached_activations_path': None, 'architecture': 'standard', 'd_in': 768, 'd_sae': 24576, 'b_dec_init_method': 'geometric_median', 'expansion_factor': 32, 'activation_fn': 'relu', 'normalize_sae_decoder': True, 'noise_scale': 0.0, 'from_pretrained_path': None, 'apply_b_dec_to_input': True, 'decoder_orthogonal_init': False, 'decoder_heuristic_init': False, 'init_encoder_as_decoder_transpose': False, 'n_batches_in_buffer': 20, 'training_tokens': 10000000, 'finetuning_tokens': 0, 'store_batch_size_prompts': 32, 'train_batch_size_tokens': 4096, 'normalize_activations': 'none', 'device': 'cuda', 'act_store_device': 'cuda', 'seed': 42, 'dtype': 'float32', 'prepend_bos': True, 'autocast': False, 'autocast_lm': False, 'compile_llm': False, 'llm_compilation_mode': None, 'compile_sae': False, 'sae_compilation_mode': None, 'adam_beta1': 0, 'adam_beta2': 0.999, 'mse_loss_normalization': None, 'l1_coefficient': 0.005, 'lp_norm': 1.0, 'scale_sparsity_penalty_by_decoder_norm': False, 'l1_warm_up_steps': 0, 'lr': 1e-05, 'lr_scheduler_name': 'cosine', 'lr_warm_up_steps': 0, 'lr_end': 1.0000000000000002e-06, 'lr_decay_steps': 0, 'n_restart_cycles': 1, 'finetuning_method': None, 'use_ghost_grads': False, 'feature_sampling_window': 2000, 'dead_feature_window': 1000, 'dead_feature_threshold': 1e-08, 'n_eval_batches': 10, 'eval_batch_size_prompts': None, 'log_to_wandb': True, 'log_activations_store_to_wandb': False, 'log_optimizer_state_to_wandb': False, 'wandb_project': 'sae_finetuning_r_score', 'wandb_id': None, 'run_name': '24576-L1-0.005-LR-1e-05-Tokens-1.000e+07', 'wandb_entity': None, 'wandb_log_frequency': 10, 'eval_every_n_wandb_logs': 100, 'resume': False, 'n_checkpoints': 5, 'checkpoint_path': './checkpoints/6ccj3h2l', 'verbose': True, 'model_kwargs': {}, 'model_from_pretrained_kwargs': {}, 'sae_lens_version': '3.7.0', 'sae_lens_training_version': '3.7.0', 'tokens_per_buffer': 20971520}
+2024-07-15 21:19:09,058 INFO    MainThread:12524 [wandb_init.py:init():586] re-initializing run, found existing run on stack: k2ea691d
+2024-07-15 21:19:09,060 INFO    MainThread:12524 [wandb_run.py:_finish():2064] finishing run jeffreyjolmo-byu/sae_finetuning_r_score/k2ea691d
+2024-07-15 21:19:09,061 INFO    MainThread:12524 [jupyter.py:save_history():445] not saving jupyter history
+2024-07-15 21:19:09,061 INFO    MainThread:12524 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-15 21:19:09,061 INFO    MainThread:12524 [wandb_init.py:_jupyter_teardown():449] cleaning up jupyter logic
+2024-07-15 21:19:09,061 INFO    MainThread:12524 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-07-15 21:19:09,061 INFO    MainThread:12524 [wandb_run.py:_restore():2287] restore
+2024-07-15 21:19:09,061 INFO    MainThread:12524 [wandb_run.py:_restore():2293] restore done
+2024-07-15 21:19:15,646 INFO    MainThread:12524 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-07-15 21:19:15,646 INFO    MainThread:12524 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-07-15 21:19:15,653 INFO    MainThread:12524 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-07-15 21:19:15,802 INFO    MainThread:12524 [wandb_init.py:init():611] starting backend
+2024-07-15 21:19:15,802 INFO    MainThread:12524 [wandb_init.py:init():615] setting up manager
+2024-07-15 21:19:15,807 INFO    MainThread:12524 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-15 21:19:15,808 INFO    MainThread:12524 [wandb_init.py:init():623] backend started and connected
+2024-07-15 21:19:15,817 INFO    MainThread:12524 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-07-15 21:19:15,818 INFO    MainThread:12524 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-15 21:19:15,818 INFO    MainThread:12524 [wandb_init.py:init():715] updated telemetry
+2024-07-15 21:19:15,818 INFO    MainThread:12524 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-07-15 21:19:17,131 INFO    MainThread:12524 [wandb_run.py:_on_init():2357] communicating current version
+2024-07-15 21:19:17,284 INFO    MainThread:12524 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.17.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-15 21:19:17,284 INFO    MainThread:12524 [wandb_init.py:init():799] starting run threads in backend
+2024-07-15 21:19:17,824 INFO    MainThread:12524 [wandb_run.py:_console_start():2335] atexit reg
+2024-07-15 21:19:17,825 INFO    MainThread:12524 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-07-15 21:19:17,825 INFO    MainThread:12524 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-07-15 21:19:17,825 INFO    MainThread:12524 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-07-15 21:19:17,826 INFO    MainThread:12524 [wandb_init.py:init():842] run started, returning control to user process
+2024-07-15 21:27:24,350 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-07-15 21:27:24,350 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Configure stats pid to 12524
+2024-07-15 21:27:24,350 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-07-15 21:27:24,350 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Loading settings from /mnt/pccfs2/backed_up/jeffolmo/sae_functional_significance/wandb/settings
+2024-07-15 21:27:24,351 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-15 21:27:24,351 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-15 21:27:24,351 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-15 21:27:24,351 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-07-15 21:27:24,351 INFO    MainThread:12524 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-15 21:27:24,351 INFO    MainThread:12524 [wandb_init.py:_log_setup():521] Logging user logs to /mnt/pccfs2/backed_up/jeffolmo/sae_functional_significance/wandb/run-20240715_212724-1fsmcuol/logs/debug.log
+2024-07-15 21:27:24,351 INFO    MainThread:12524 [wandb_init.py:_log_setup():522] Logging internal logs to /mnt/pccfs2/backed_up/jeffolmo/sae_functional_significance/wandb/run-20240715_212724-1fsmcuol/logs/debug-internal.log
+2024-07-15 21:27:24,351 INFO    MainThread:12524 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f54fcf56110>
+2024-07-15 21:27:24,352 INFO    MainThread:12524 [wandb_init.py:init():561] calling init triggers
+2024-07-15 21:27:24,352 INFO    MainThread:12524 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'model_name': 'gpt2-small', 'model_class_name': 'HookedTransformer', 'hook_name': 'blocks.8.hook_resid_pre', 'hook_eval': 'NOT_IN_USE', 'hook_layer': 8, 'hook_head_index': None, 'dataset_path': 'apollo-research/Skylion007-openwebtext-tokenizer-gpt2', 'dataset_trust_remote_code': True, 'streaming': True, 'is_dataset_tokenized': True, 'context_size': 256, 'use_cached_activations': False, 'cached_activations_path': None, 'architecture': 'standard', 'd_in': 768, 'd_sae': 24576, 'b_dec_init_method': 'geometric_median', 'expansion_factor': 32, 'activation_fn': 'relu', 'normalize_sae_decoder': True, 'noise_scale': 0.0, 'from_pretrained_path': None, 'apply_b_dec_to_input': True, 'decoder_orthogonal_init': False, 'decoder_heuristic_init': False, 'init_encoder_as_decoder_transpose': False, 'n_batches_in_buffer': 20, 'training_tokens': 10000000, 'finetuning_tokens': 0, 'store_batch_size_prompts': 32, 'train_batch_size_tokens': 4096, 'normalize_activations': 'none', 'device': 'cuda', 'act_store_device': 'cuda', 'seed': 42, 'dtype': 'float32', 'prepend_bos': True, 'autocast': False, 'autocast_lm': False, 'compile_llm': False, 'llm_compilation_mode': None, 'compile_sae': False, 'sae_compilation_mode': None, 'adam_beta1': 0, 'adam_beta2': 0.999, 'mse_loss_normalization': None, 'l1_coefficient': 0.005, 'lp_norm': 1.0, 'scale_sparsity_penalty_by_decoder_norm': False, 'l1_warm_up_steps': 0, 'lr': 1e-05, 'lr_scheduler_name': 'cosine', 'lr_warm_up_steps': 0, 'lr_end': 1.0000000000000002e-06, 'lr_decay_steps': 0, 'n_restart_cycles': 1, 'finetuning_method': None, 'use_ghost_grads': False, 'feature_sampling_window': 2000, 'dead_feature_window': 1000, 'dead_feature_threshold': 1e-08, 'n_eval_batches': 10, 'eval_batch_size_prompts': None, 'log_to_wandb': True, 'log_activations_store_to_wandb': False, 'log_optimizer_state_to_wandb': False, 'wandb_project': 'sae_finetuning_r_score', 'wandb_id': None, 'run_name': '24576-L1-0.005-LR-1e-05-Tokens-1.000e+07', 'wandb_entity': None, 'wandb_log_frequency': 10, 'eval_every_n_wandb_logs': 100, 'resume': False, 'n_checkpoints': 5, 'checkpoint_path': './checkpoints/r63916ii', 'verbose': True, 'model_kwargs': {}, 'model_from_pretrained_kwargs': {}, 'sae_lens_version': '3.7.0', 'sae_lens_training_version': '3.7.0', 'tokens_per_buffer': 20971520}
+2024-07-15 21:27:24,352 INFO    MainThread:12524 [wandb_init.py:init():586] re-initializing run, found existing run on stack: 5r20zmns
+2024-07-15 21:27:24,354 INFO    MainThread:12524 [wandb_run.py:_finish():2064] finishing run jeffreyjolmo-byu/sae_finetuning_r_score/5r20zmns
+2024-07-15 21:27:24,354 INFO    MainThread:12524 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-07-15 21:27:24,354 INFO    MainThread:12524 [wandb_run.py:_restore():2287] restore
+2024-07-15 21:27:24,355 INFO    MainThread:12524 [wandb_run.py:_restore():2293] restore done
+2024-07-15 21:27:29,992 INFO    MainThread:12524 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-07-15 21:27:29,992 INFO    MainThread:12524 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-07-15 21:27:30,000 INFO    MainThread:12524 [wandb_run.py:_footer_sync_info():3895] logging synced files
